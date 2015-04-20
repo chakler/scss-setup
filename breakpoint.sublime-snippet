@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+@include breakpoint(${1:pm / lm / t / l / xl}) {
+  $2
+}
+]]></content>
+	<tabTrigger>mq</tabTrigger> 
+	<scope>source.scss</scope>
+</snippet>

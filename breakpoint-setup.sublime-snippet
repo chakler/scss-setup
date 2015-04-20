@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+\$break-mobile: ${1:480}px;
+\$break-tablet: ${2:768}px;
+\$break-desktop: ${3:1140}px;
+\$break-HD: ${5:1600}px;
+
+@mixin breakpoint(\$media) {
+  @if \$media == pm {
+    @media only screen and (max-width: \$break-mobile - 1) { @content; }
+  }
+  @else if \$media == lm {
+    @media only screen and (min-width: \$break-mobile) and (max-width: \$break-tablet - 1) { @content; }
+  }
+  @else if \$media == t {
+    @media only screen and (min-width: \$break-tablet) and (max-width: \$break-desktop - 1) { @content; }
+  }
+  @else if \$media == l {
+    @media only screen and (min-width: \$break-desktop) and (max-width: \$break-HD - 1) { @content; }
+  }
+  @else if \$media == xl {
+    @media only screen and (min-width: \$break-HD) { @content; }
+  }
+}
+
+]]></content>
+	<tabTrigger>smq</tabTrigger> 
+	<scope>source.scss</scope>
+</snippet>
