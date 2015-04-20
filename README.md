@@ -1,20 +1,14 @@
 # Scss Setup
 
-----
-
 ## About
 
 Scss setup is a set of Sublime Text snippets for setting up reset and media query breakpoint mixin.
-
-----
 
 ## Setup
 
 1. Navigate to `~/Library/Application Support/Sublime Text 2/Packages/User`
 2. Clone the project to the directory with `git clone https://github.com/chakler/scss-setup.git`
 3. Open your Sublime Text and voila!
-
-----
 
 ## Usage
 
@@ -81,7 +75,7 @@ And this will be compiled into:
 	}
 
 
-# Acknowledgments
+## Acknowledgments
 
 - [Reset CSS](http://meyerweb.com/eric/tools/css/reset/) by Eric Meyer
 - [Micro Clearfix Hack](http://nicolasgallagher.com/micro-clearfix-hack/) by Nicolas Gallagher
