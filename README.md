@@ -4,6 +4,8 @@
 
 Scss setup is a set of Sublime Text snippets for setting up reset and media query breakpoint mixin.
 
+**The [SCSS Sublime package](https://packagecontrol.io/packages/SCSS) is required for these snippets to work,** so make sure you have it installed first.
+
 ## Setup
 
 1. Navigate to `~/Library/Application Support/Sublime Text 2/Packages/User`
